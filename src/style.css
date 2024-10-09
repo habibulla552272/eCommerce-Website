@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* .nav {
+  display: flex;
+
+  justify-content: space-around;
+
+   height: 100px; 
+   align-items: center;
+} */
+
+.nav-2 {
+  background-image: url(/src/Image/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 300px; */
+}
+
+/* @media screen and(max-width:600px) {
+  .nav-3-div {
+    margin-left: 100px;
+  }
+} */
+/* 
+.Beautiful-mid {
+  background-image: url(Image/Rectangle\ 24.png);
+  background-size: cover;
+  
+} */
+
+.usegrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 15px;
+  width: 80%;
+  justify-content: space-around;
+  /* grid-auto-flow: dense; */
+}
+
+.grid-item img {
+  width: 1005;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid1 img {
+  grid-column: span 1;
+}
+/* .grid1 img {
+  size: 100px;
+} */
+
+.grid2 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.grid3 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.grid4 {
+  grid-column: span 1;
+}
+.grid5 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.grid6 {
+  grid-column: span 1;
+}
+
+.grid7 {
+  grid-column: span 1;
+}
+
+/* .grid1 {
+  grid-column: span 2;
+}
+.grid1 {
+  grid-column: span 2;
+} */
+
+/* second html start */
+
+/* second html End */

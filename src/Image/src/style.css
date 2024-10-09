@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  display: flex;
+
+  justify-content: space-around;
+
+  height: 100px;
+  align-items: center;
+}
+
+.nav-2 {
+  background-image: url(/src/Image/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 300px; */
+}
+
+/* @media screen and(max-width:600px) {
+  .nav-3-div {
+    margin-left: 100px;
+  }
+} */
+/* 
+.Beautiful-mid {
+  background-image: url(Image/Rectangle\ 24.png);
+  background-size: cover;
+  
+} */
